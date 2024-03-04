@@ -1,14 +1,13 @@
 [
-    {
-      "directory": "${workspaceFolder}",
-      "command": "${command:cmake.configure}",
-      "file": "CMakeLists.txt"
-    },
-    {
-      "directory": "${workspaceFolder}/build",
-      "command": "C:\\ProgramData\\chocolatey\\bin\\g++.exe",
-      "file": "${workspaceFolder}/source/${relativeFileDirname}/${fileBasename}",
-      "output": "${fileBasenameNoExtension}.exe"
-    }
-  ]
-  
+  {
+    "directory": "${workspaceFolder}",
+    "command": "${command:cmake.configure}",
+    "file": "CMakeLists.txt"
+  },
+  {
+    "directory": "${workspaceFolder}/build",
+    "command": "C:\\ProgramData\\chocolatey\\bin\\g++.exe",
+    "file": "${workspaceFolder}/${relativeFileDirname}/${fileBasename}",
+    "output": "${fileBasenameNoExtension}.exe"
+  }
+]
