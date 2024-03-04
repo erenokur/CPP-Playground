@@ -1,5 +1,4 @@
 // url: https://www.hackerrank.com/challenges/migratory-birds/problem
-
 #include <iostream>
 #include <vector>
 #include <map>
