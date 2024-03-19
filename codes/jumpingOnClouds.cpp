@@ -1,3 +1,4 @@
+// Link: https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem
 #include <iostream>
 #include <vector>
 
