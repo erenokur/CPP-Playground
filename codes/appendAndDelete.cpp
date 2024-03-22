@@ -1,3 +1,4 @@
+// Link: https://www.hackerrank.com/challenges/append-and-delete/problem
 #include <iostream>
 
 using namespace std;
