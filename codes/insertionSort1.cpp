@@ -12,7 +12,7 @@ using namespace std;
 * @param arr The array.
 * @return The sorted array.
 */
-vector<int> insertionSort1(int n, vector<int> arr) {
+void insertionSort1(int n, vector<int> arr) {
     int value = arr[n - 1];
     int i = n - 2;
     while (i >= 0 && arr[i] > value) {
@@ -24,15 +24,14 @@ vector<int> insertionSort1(int n, vector<int> arr) {
         i--;
     }
     arr[i + 1] = value;
-    return arr;
+    for (int j = 0; j < n; j++) {
+        cout << arr[j] << " ";
+    }
+    cout << endl;
 }
 
 int main()
 {
     cout << "Solution: ";
-    vector<int> result = insertionSort1(5, {2, 4, 6, 8, 3});
-    for(int i = 0; i < result.size(); i++) {
-        cout << result[i] << " ";
-    }
-    cout << endl;    return 0;
+    insertionSort1(5, {2, 4, 6, 8, 3});
 }
