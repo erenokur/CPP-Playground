@@ -32,9 +32,5 @@ void insertionSort2(int n, vector<int> arr) {
 int main()
 {
     cout << "Solution: ";
-    vector<int> result = insertionSort2(7, {3, 4, 7, 5, 6, 2, 1});
-    for(int i = 0; i < result.size(); i++) {
-        cout << result[i] << " ";
-    }
-    cout << endl;    return 0;
+    insertionSort2(7, {3, 4, 7, 5, 6, 2, 1});
 }
